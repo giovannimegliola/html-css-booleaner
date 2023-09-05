@@ -1,16 +1,70 @@
+.text-blue{
+    color: #1FA9E5;
+}
+
+.bg-blue{
+    background-color: #20A9E5;
+}
+
+.text-grey{
+    color: #787878;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-light-blue{
+    background-color: #B1E5F2;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
 header{
-    background-image: url('../img/pattern.png');
-    background-color: rgb(0, 145, 255);
-    background-size: 42%;
-    height: 120px;
-    background-repeat: repeat;
-    background-position: top;
-    
+    background-color: #4EA0FF ;
+    background-image: url(../img/pattern.png);
+    padding-top: 40px;
+    background-size: 45%;
 }
 
-#logo {
-    height: 150px;
-    width: 240px;
+#logo{
+    width: 340px;
+    min-width: 300px;
+}
+
+
+.image{
+    width: 210px;
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
+#graph{
+    background-image: url(../img/graph.jpg);
+}
+
+#monitor{
+    background-image: url(../img/monitor.jpg);
+}
+
+h1{
+    font-size: 2em;
+}
+
+.small-text{
+    font-size: 0.9em;
+}
+
+table{
+    border-spacing: 0;
+}
+
+.last-col{
+    width: 50%;
+}
